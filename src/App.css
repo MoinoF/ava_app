@@ -1,0 +1,45 @@
+:root {
+  --background_dark: #160000;
+  --background_darker: #120000;
+  --yellow: #FCCB0A;
+  --yellow_light: #FFFF45;
+  --yellow_dark: #F29D00;
+  --red: #EC250E;
+  --red_light: #FA3C1E;
+  --red_dark: #FA3C1E;
+  --text: #A7A0A0;
+  --title: #777272;
+  --white: #ECE5E5; 
+  --label: #AAA4A4; 
+  --input: #535050; 
+  --placeholder: #3D3B3B; 
+  --mini_quote: #C1BABA;
+  --blue: #0A8BFC; 
+  --div: #111111;
+}
+  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "montserrat", 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+}
+
+body {
+  background: var(--background_darker);
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: .1rem;
+}
