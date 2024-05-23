@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="17" viewBox="0 0 31 17">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="31" height="17" transform="translate(226 137)" fill="#efefef"/>
+    </clipPath>
+  </defs>
+  <g id="small_Logo" data-name="small Logo" transform="translate(-226 -137)" clip-path="url(#clip-path)">
+    <g id="Layer_1" data-name="Layer 1" transform="translate(226 138.908)">
+      <g id="ava_logo" transform="translate(0 0)">
+        <path id="A" d="M10.8,13.683a1.367,1.367,0,0,1-1.814-.672l-3.2-6.966L2.617,12.932A1.369,1.369,0,0,1,.8,13.6h0a1.369,1.369,0,0,1-.672-1.814L4.517,2.254a1.363,1.363,0,0,1,2.2-.4,1.373,1.373,0,0,1,.369.48l4.386,9.535a1.367,1.367,0,0,1-.672,1.814Z" transform="translate(-0.006 -1.32)" fill="#efefef"/>
+        <path id="V" d="M108.275,2.018l-4.386,9.534a1.368,1.368,0,0,1-1.814.672h0a1.77,1.77,0,0,1-.757-.75L96.931,1.94A1.367,1.367,0,0,1,97.6.125h0A1.367,1.367,0,0,1,99.417.8l3.2,6.965L105.791.874A1.368,1.368,0,0,1,107.605.2h0a1.368,1.368,0,0,1,.672,1.814Z" transform="translate(-87.683 0.001)" fill="#efefef"/>
+        <path id="A-2" data-name="A" d="M208.757,13.7a1.367,1.367,0,0,1-1.814-.672l-3.2-6.965-3.169,6.887a1.368,1.368,0,0,1-2.486-1.143l4.388-9.535a1.368,1.368,0,0,1,1.814-.672,1.393,1.393,0,0,1,.388.269,1.373,1.373,0,0,1,.369.48l4.386,9.534a1.367,1.367,0,0,1-.672,1.814Z" transform="translate(-179.302 -1.333)" fill="#efefef"/>
+      </g>
+    </g>
+  </g>
+</svg>

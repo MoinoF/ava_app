@@ -1,53 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
-import Title from '../Title/Title'
-import Map from './Map'
-import ContactInfo from './ContactInfo'
-import SendMessage from './SendMessage'
-import MessageForm from '../Form/MessageForm'
+import LeftItems from './LeftItems'
+import RightItems from './RightItems'
 
 const Section = styled.section`
-  background: var(--background_darker);
-  min-height: 100vh;
-  
+  height: 100vh;
 `
 
 const Container = styled.div`
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 10rem 0.9375rem;
+  display: grid;
+  grid-template-columns: 1fr 35.25rem;
 `
-
-const MapContactContainer = styled.div`
-  margin-top: 4rem;
-  display: flex;
-  flex-wrap: wrap;
-  grid-gap: 2rem;
-`
-
-const MessageContainer = styled.div`
-  margin-top: 6.25rem;
-`
-
 
 const Contact = () => {
-
-  const handleSubmit = (event) => {
-    event.preventDefault()
-  }
-
   return (
-    <Section>
+    <Section className="background">
       <Container>
-        <Title value="Contacto" />
-        <MapContactContainer>
-          <Map />
-          <ContactInfo location="Moçambique - Maxixe" />
-        </MapContactContainer>
-        <MessageContainer>
-          <SendMessage />
-          <MessageForm onClick={ handleSubmit } />
-        </MessageContainer>
+        <LeftItems social_medias={ true } />
+        <RightItems />
       </Container>
     </Section>
   )

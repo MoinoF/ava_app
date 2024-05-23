@@ -1,52 +1,47 @@
 import React from 'react'
 import styled from 'styled-components'
-import LoginForm from '../Form/LoginForm'
+import LeftItems from '../Contact/LeftItems'
 import Title from '../Title/Title'
+import { Link } from 'react-router-dom'
+import AnAccount from './AnAccount'
+import Buttons from './Buttons'
 
 const Section = styled.section`
-  background: var(--background_darker);
-  color: #fff;
+  height: 100vh;
 `
 
 const Container = styled.div`
   display: grid;
-  justify-content: center;
-  grid-gap: 2.5rem;
-  padding: 3.75rem 0.9375rem;
+  grid-template-columns: 1fr 35.25rem;
 `
 
+const RightItems = styled.div`
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, .2);
+  backdrop-filter: blur(6px);
+  padding: 6.625rem 3.75rem 0 3.75rem;
+`
+
+const Content = styled.div`
+  margin-top: 3.75rem;
+  display: grid;
+  grid-gap: 2.5rem;
+`
+
+
 const Login = () => {
-
-  const login = true
-
-  const data ={
-    labels: [
-      "Email",
-      "Password"
-    ],
-  
-    placeholders: [
-      "email@email.com",
-      "********"
-    ],
-  
-    names: [
-      "email",
-      "password"
-    ],
-  
-    types: [
-      "email",
-      "password"
-    ],
-  
-  }
-
   return (
-    <Section>
+    <Section className="background">
       <Container>
-        <Title value="Login" />
-        <LoginForm login={login} data={ data } />
+        <LeftItems  />
+        <RightItems>
+          <Title text="Entrar" />
+          <Content>
+            <Buttons />
+            <AnAccount text="Não tem nenhuma conta?" text_link="Criar conta" to="/signup" />
+          </Content>
+        </RightItems>
       </Container>
     </Section>
   )
